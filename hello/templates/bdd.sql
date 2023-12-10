@@ -1,4 +1,8 @@
--- Creación de la tabla de usuarios
+CREATE DATABASE IF NOT EXISTS bdd;
+
+-- Usar la base de datos recién creada
+USE bdd;
+
 CREATE TABLE usuarios (
     id INT PRIMARY KEY AUTO_INCREMENT,
     nombre VARCHAR(50),
